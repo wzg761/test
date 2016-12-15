@@ -1,0 +1,53 @@
+/***************尾部样式********************/
+footer{
+	display: -webkit-box;
+	background: #b1afaf;
+	width:100%;
+	height:55px;
+	position:fixed;
+	bottom:0;
+}
+footer a{
+	display: block;
+	font-size: 12px;
+	width:25%;
+	height:55px;
+	padding-top: 33px;
+	text-align: center;
+	background: no-repeat center 12px;
+	background-size: 21px;
+	text-decoration:none;
+	color: #FCFAFA;
+}
+footer a.active{
+	background-color: #ED3037;
+
+}
+footer a:nth-child(1){
+	/*background-position-y: 12px;*/
+	background-image:url("../img/nav/drawable-xxhdpi/home.png");
+}
+footer a:nth-child(2){
+	/*background-position-y: 11px;*/
+	background-image:url("../img/nav/drawable-xxhdpi/car.png");
+}
+footer a:nth-child(3){
+	background-image:url("../img/nav/drawable-xxhdpi/category.png");
+	/*background-position-y: 14px;*/
+}
+footer a:nth-child(4){
+	/*background-position-y: 12px;*/
+	background-image:url("../img/nav/drawable-xxhdpi/wo.png");
+}
+footer a.active:nth-child(1){
+	background-image:url("../img/nav/drawable-xxhdpi/home.png");
+}
+footer a.active:nth-child(2){
+	background-image:url("../img/nav/drawable-xxhdpi/car.png");
+}
+footer a.active:nth-child(3){
+	background-image:url("../img/nav/drawable-xxhdpi/category.png");
+}
+footer a.active:nth-child(4){
+	background-image:url("../img/nav/drawable-xxhdpi/wo.png");
+}

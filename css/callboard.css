@@ -1,0 +1,25 @@
+#callboard{
+	width: 100%;
+	height: 21px;
+	background-color: #d9d9d9;
+}
+/*公告栏滚动CSS*/ 
+#callboard ul{ width:60%; height:21px; line-height:21px; overflow:hidden; font-size:12px;margin:0; padding:0;} 
+#callboard ul li a{
+	color: #f00f0f;
+	text-decoration: none;
+	font-size: 12px;
+	position: relative;
+	left: 21px;
+
+}
+/*float: right; 标签悬浮与右边*/
+#callboard .more a{
+	color: #f00f0f;
+	text-decoration: none;
+	font-size: 12px;
+	position: relative;
+	top: -17px;
+	float: right;
+	right: 7px;
+}

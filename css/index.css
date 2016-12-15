@@ -1,0 +1,278 @@
+.divider{
+	background-color: #d9d9d9;
+}
+#search .bg{
+	width: 100%;
+	height: 41px;
+}
+#search a .search{
+	width: 207px;
+	height: 21px;
+	position: relative;
+	top: -33px;
+
+}
+#main{
+	position: relative;
+	top: -27px;
+}
+.swiper_img a{
+    width:100%;
+    height:209px;
+}
+/*display: block; 设为块状元素消除空白行*/
+.swiper_img a img{
+    display: block;
+    width:100%;
+    height:140px;
+
+}
+
+/*
+领取优惠卷
+*/
+#coupon .title {
+	background-color: #d9d9d9;
+	height: 39px;
+	position: relative;
+	top: -1px;
+	
+}
+#coupon .title img{
+	position: relative;
+	top: 13px;
+	left: 4px;
+	height: 20px;
+}
+/*font-weight: 800;字体加粗*/
+#coupon .title .text{
+	position: relative;
+	left: 1.5%;
+	top: 6.5px;
+	font-size: 14px;
+	color: #393939;
+	font-weight: 800;
+}
+#coupon .body ul{
+	margin: 0px;
+	padding: 0px;
+}
+#coupon .body ul li{
+	width: 24.5%;
+	height: 74px;
+	float: left;
+	list-style: none;
+	position: relative;
+	top: 41px;
+	margin-left: 6.5%;
+
+}
+#coupon .body ul li img{
+	width: 100%;
+	height: 100%;
+}
+#coupon .body ul li div{
+width: 46.5%;
+height: 17px;
+line-height: 17px;
+background-color: #ecf325;
+text-align: center;
+position: relative;
+top: -30px;
+left: 10%;
+
+}
+#coupon .body ul li div a{
+font-size: 12px;
+font-weight: 800;
+letter-spacing: 4px;
+color: #050505;
+text-decoration: none;
+}
+/*
+今日实惠
+clear: both; 取消float: left;的浮动效果
+*/
+#preferential .title {
+	background-color: #d9d9d9;
+	height: 29px;
+	clear: both;
+	position: relative;
+	top: 82px;
+
+}
+#preferential .title img{
+	position: relative;
+	top: 6px;
+	left: 4px;
+	height: 20px;
+}
+/*font-weight: 800;字体加粗*/
+#preferential .title .text{
+	position: relative;
+	left: 1.5%;
+	font-size: 14px;
+	color: #393939;
+	font-weight: 800;
+}
+/*
+限时折扣
+*/
+#preferential .limitTime .type{
+	position: relative;
+	top: 119px;
+	left: -2%;
+}
+#preferential .limitTime .type span{
+	margin-left: 4%;
+}
+#preferential .limitTime .type .colockbox{
+	position: relative;
+	left: 14%;
+	top: -40px;
+}
+#preferential .body{
+	position: relative;
+	top: 140px;
+	left: 6%;
+}
+#preferential .body .img_1{
+	width: 34%;
+	height: 130px;
+	position: relative;
+	top: 40px;
+}
+#preferential .body .img_2{
+	width: 24%;
+	height: 111px;
+	position: relative;
+	top: -65px;
+	left: 33%;
+}
+#preferential .body .img_3 , .img_4{
+	width: 17%;
+	height: 67px;
+	position: relative;
+	top: 40px;
+}
+#preferential .body .img_3{
+	position: relative;
+	left: -12%;
+}
+#preferential_d1{
+	position: relative;
+	left: 37%;
+	width: 1px;
+	height: 221px;
+	top: -180px;
+}
+#preferential_d2{
+	position: relative;
+	left: 37%;
+	width: 57%;
+	height: 1px;
+	top: -290px;
+}
+#preferential_d3{
+	position: relative;
+	left: 65%;
+	width: 1px;
+	height: 110px;
+	top: -290px;
+}
+/*
+满减
+*/
+#full{
+	position: relative;
+	top: -60px;
+}
+#full .full_bg1{
+width: 33%;
+height:61px;
+background-color: #e9e8e8;
+float: left;
+}
+#full .full_bg2{
+width: 33%;
+height:61px;
+background-color: #d9d9d9;
+float: left;
+}
+#full div h1{
+	color: #494444;
+	font-size: 14px;
+	position: relative;
+	left: 12%;
+	top: 5px;
+}
+#full div div{
+	width: 71px;
+	height: 15px;
+	position: relative;
+	left: 12%;
+	top: 5px;
+	text-align: center;
+	background-color: #fc0101;
+	border-radius: 30px;
+}
+#full div div a{
+	color: #fced01;
+	font-size: 10px;
+	text-decoration: none;
+	position: relative;
+	top: -3px;
+}
+#full div img{
+	width: 30%;
+	height: 47px;
+	position: relative;
+	left: 60%;
+	top: -40px;
+}
+/*
+今日特价
+*/
+#today .type{
+	position: relative;
+	left: 2%;
+	clear: both;
+
+}
+#today .body{
+	width: 99%;
+	position: relative;
+	left: 6%;
+	top: 26px;
+}
+#today div .line2{
+	position: relative;
+	top: 50px;
+}
+#today div a .right{
+float: right;
+position: relative;
+right: 8%;
+}
+#today div a .left{
+	float: left;
+	position: relative;
+	clear: both;
+
+}
+#today_d1{
+width: 100%;
+height: 1px;
+position: relative;
+top: 220px;
+}
+#today_d2{
+width: 1px;
+height: 300px;
+position: relative;
+left: 50%;
+top: 50px;
+}
+/*
+秒杀
+*/
